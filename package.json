@@ -1,0 +1,26 @@
+{
+  "name": "stock-price-prediction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qasim-Akram/Stock-Price-Prediction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Qasim-Akram/Stock-Price-Prediction/issues"
+  },
+  "homepage": "https://github.com/Qasim-Akram/Stock-Price-Prediction#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}

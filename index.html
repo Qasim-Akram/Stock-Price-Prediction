@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="images/logo.png" alt="Logo">
+        <h1>Minimal Analysis</h1>
+        <h3>Stock Prediction</h3>
+    </header>
+
+    <main>
+        <h2 id="instruction">Add up to 3 stock tickers below to get a
+            super accurate stock predictions report 👇</h2>
+
+
+        <div class="input-row">
+            <input id="ticker-input" type="text" placeholder="TICKERS (e.g. AAPL, TSLA)" maxlength="20">
+            <button id="ticker-submit">+</button>
+        </div>
+
+        <p id="added-ticker"></p>
+
+        <button id="generate-report">GENERATE REPORT</button>
+
+        
+        <div class="action-panel">
+            <div class="loading-area">
+                <div class="spinner"></div>
+                <p>Generating your report...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>&#169; This is not real financial advice!</footer>
+
+    <script src="script.js" type="module"></script>
+
+</body>
+
+</html>
