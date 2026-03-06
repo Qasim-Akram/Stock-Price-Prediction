@@ -81,7 +81,8 @@ async function fetchReport(stockData) {
 function renderReport(report) {
     document.querySelector('.loading-area').style.display = 'none'
     document.querySelector('.action-panel').innerHTML = `
-        <h2>Stock Report</h2>
-        <p>${report}</p>
+        <div class="report">
+            ${marked.parse(report)}
+        </div>
     `
 }
