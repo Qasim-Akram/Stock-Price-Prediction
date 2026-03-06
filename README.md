@@ -2,7 +2,7 @@
 
 A full stack web app that fetches real stock market data and generates AI-powered analysis reports using Groq's LLaMA model.
 
-> ⚠️ **Disclaimer:** This is not real financial advice. Always correct 15% of the time!
+
 
 ---
 
