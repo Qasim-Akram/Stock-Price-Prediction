@@ -9,7 +9,7 @@ A full stack web app that fetches real stock market data and generates AI-powere
 ## 🚀 Features
 
 - Add up to 3 stock tickers (e.g. AAPL, TSLA, MSFT)
-- Fetches real historical stock data from Polygon.io API
+- Fetches real historical stock data from Massive.io API
 - Generates an AI-powered stock analysis report using Groq (LLaMA 3)
 - Secure backend server — API keys never exposed to the browser
 - Clean, minimal UI
@@ -66,7 +66,7 @@ GROQ_API_KEY=your_groq_api_key
 ```
 
 ### 4. Get your API keys
-- **Polygon.io** (stock data): [polygon.io](https://polygon.io) — free tier available
+- **Polygon.io** (stock data): [polygon.io](https://massive.io) — free tier available
 - **Groq** (AI reports): [console.groq.com](https://console.groq.com) — completely free
 
 ### 5. Start the backend server
